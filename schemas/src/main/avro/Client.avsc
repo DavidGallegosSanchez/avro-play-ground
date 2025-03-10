@@ -1,0 +1,22 @@
+{
+  "name": "Client",
+  "namespace": "com.gallegos.shop.domain.generated",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "cardNumber",
+      "type": "int"
+    }
+  ]
+}

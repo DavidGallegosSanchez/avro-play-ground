@@ -1,0 +1,31 @@
+{
+  "nameShop": "Scalpers",
+  "address": "Reyes católicos",
+  "city": "Granada",
+  "client": {
+    "id": 123,
+    "name": "David",
+    "cardNumber": 12345
+  },
+  "items": [
+    {
+      "id": "123",
+      "name": "Scbeach oxford",
+      "quantity": 1,
+      "price": 59.90
+    },
+    {
+      "id": "231",
+      "name": "Sc vacances",
+      "quantity": 1,
+      "price": 59.90
+    },
+    {
+      "id": "2231",
+      "name": "Sckull socks",
+      "quantity": 1,
+      "price": 14.90
+    }
+  ],
+  "cp": "18009"
+}

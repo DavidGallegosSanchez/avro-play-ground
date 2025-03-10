@@ -1,0 +1,48 @@
+{
+  "name": "ShopOrder",
+  "namespace": "com.gallegos.shop.domain.generated",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "nameShop",
+      "type": "string"
+    },
+    {
+      "name": "address",
+      "type": "string"
+    },
+    {
+      "name": "city",
+      "type": "string"
+    },
+    {
+      "name": "cp",
+      "type": "string"
+    },
+    {
+      "name": "client",
+      "type": "Client"
+    },
+    {
+      "name": "items",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "Item",
+          "name": "item"
+        }
+      }
+    },
+    {
+      "name": "totalPrice",
+      "type": "float"
+    }
+  ]
+}
